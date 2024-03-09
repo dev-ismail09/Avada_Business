@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url('/banner.jpg');
+    height: 100vh;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 200px;
+}
+
+.dropdown a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+.dropdown-menu{
+    background-color: #4f578d;
+}
+
+.dropdown-menu a:hover{
+    background-color: #db3c67;
+    color: white;
+    transition-duration: 1s;
+}
+
+.header_button button{
+    background-color: transparent;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.header-content h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;
+    line-height: 100px;
+}
+.header-content p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.header-button button{
+    background-color: #f73760;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.about{
+    margin: -40px 50px;
+    padding: 100px 50px;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.about-content{
+    align-items: center;
+    border-left: 2px solid #f73760;
+    padding: 20px;
+}
+
+.about-goal{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+    padding: 100px 50px;
+}
+.about-goal-left p{
+    color: #f73760;
+    font-size: 18px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(175, 174, 172);
+}
+.about-goal h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+.about-goal-right p {
+    font-size: 24px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(175, 174, 172);
+}
+
+.Card{
+    margin: 0px 50px;
+    padding: 20px 50px;
+    display: flex;
+    gap: 20px;
+}
+.card-body{
+    background-color: #f4f5fa;
+    border: 1px solid #f4f5fa;
+}
+.Card h4{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.Card p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.Card button{
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+.card-icon{
+    font-size: 90px;
+    color: #f73760;
+}
